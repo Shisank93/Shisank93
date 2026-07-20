@@ -1,0 +1,29 @@
+<svg width="100%" height="120" viewBox="0 0 900 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C2FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="120" rx="16" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  
+  <!-- Quote Mark Icon -->
+  <text x="35" y="65" fill="#00C2FF" font-family="Georgia, serif" font-size="60" opacity="0.4">“</text>
+
+  <!-- Quote Text -->
+  <text x="75" y="52" fill="#E6EDF3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" font-style="italic">
+    Consistency compounds. Small improvements every day eventually become extraordinary.
+  </text>
+  
+  <text x="75" y="82" fill="#22D3EE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">
+    — SHISANK YADAV
+  </text>
+  
+  <text x="860" y="85" fill="#7C3AED" font-family="Georgia, serif" font-size="60" opacity="0.4" text-anchor="end">”</text>
+</svg>

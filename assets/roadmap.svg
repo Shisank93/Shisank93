@@ -1,0 +1,64 @@
+<svg width="100%" height="220" viewBox="0 0 1000 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C2FF" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="1000" height="220" rx="16" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.5"/>
+
+  <!-- Connecting Track Line -->
+  <line x1="100" y1="110" x2="900" y2="110" stroke="#21262D" stroke-width="6" stroke-linecap="round"/>
+  <line x1="100" y1="110" x2="680" y2="110" stroke="url(#trackGrad)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Node 1: ML Foundations -->
+  <g transform="translate(100, 110)">
+    <circle r="18" fill="#0D1117" stroke="#00C2FF" stroke-width="3" filter="url(#nodeGlow)"/>
+    <circle r="8" fill="#00C2FF"/>
+    <text x="0" y="-32" fill="#E6EDF3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Machine Learning</text>
+    <text x="0" y="38" fill="#00C2FF" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">✓ MASTERED</text>
+  </g>
+
+  <!-- Node 2: Deep Learning -->
+  <g transform="translate(300, 110)">
+    <circle r="18" fill="#0D1117" stroke="#00C2FF" stroke-width="3" filter="url(#nodeGlow)"/>
+    <circle r="8" fill="#00C2FF"/>
+    <text x="0" y="-32" fill="#E6EDF3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Deep Learning</text>
+    <text x="0" y="38" fill="#38BDF8" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ IN PROGRESS (85%)</text>
+  </g>
+
+  <!-- Node 3: MLOps & Docker -->
+  <g transform="translate(500, 110)">
+    <circle r="18" fill="#0D1117" stroke="#7C3AED" stroke-width="3" filter="url(#nodeGlow)"/>
+    <circle r="8" fill="#7C3AED"/>
+    <text x="0" y="-32" fill="#E6EDF3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">MLOps &amp; Docker</text>
+    <text x="0" y="38" fill="#A78BFA" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ BUILDING (75%)</text>
+  </g>
+
+  <!-- Node 4: AWS & Cloud -->
+  <g transform="translate(700, 110)">
+    <circle r="18" fill="#0D1117" stroke="#7C3AED" stroke-width="3" filter="url(#nodeGlow)"/>
+    <circle r="8" fill="#7C3AED"/>
+    <text x="0" y="-32" fill="#E6EDF3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">AWS &amp; Cloud ML</text>
+    <text x="0" y="38" fill="#C084FC" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">🚀 EXPANDING (60%)</text>
+  </g>
+
+  <!-- Node 5: LLMs & Startup -->
+  <g transform="translate(900, 110)">
+    <circle r="18" fill="#0D1117" stroke="#484F58" stroke-width="3"/>
+    <circle r="8" fill="#484F58"/>
+    <text x="0" y="-32" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">LLMs &amp; AI Startup</text>
+    <text x="0" y="38" fill="#8B949E" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">🎯 FUTURE GOAL</text>
+  </g>
+</svg>
