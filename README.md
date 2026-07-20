@@ -1,7 +1,10 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img src="./assets/banner.png" alt="Shisank Yadav - AI & Machine Learning Engineer Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0, 194, 255, 0.2);" />
+<picture>
+  <source srcset="./banner.png" type="image/png">
+  <img src="./assets/banner.svg" alt="Shisank Yadav - AI &amp; Machine Learning Engineer Banner" width="100%" style="border-radius: 14px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0, 194, 255, 0.2);" />
+</picture>
 
 <br/>
 
@@ -60,7 +63,10 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #161B22; border-radius: 16px; border: 1px solid #30363D;">
   <tr>
     <td width="30%" align="center" style="padding: 25px; vertical-align: middle;">
-      <img src="./assets/profile.png" width="180" height="180" style="border-radius: 50%; border: 3px solid #00C2FF; box-shadow: 0 0 20px rgba(0, 194, 255, 0.4);" alt="Shisank Yadav Profile Avatar" />
+      <picture>
+        <source srcset="./profile.png" type="image/png">
+        <img src="./assets/profile.svg" width="180" height="180" style="border-radius: 50%; border: 3px solid #00C2FF; box-shadow: 0 0 20px rgba(0, 194, 255, 0.4);" alt="Shisank Yadav Profile Avatar" />
+      </picture>
       <h3 style="color: #00C2FF; margin-top: 15px; margin-bottom: 5px;">Shisank Yadav</h3>
       <p style="color: #8B949E; font-size: 13px; margin: 0;">AI &amp; ML Engineer</p>
     </td>
@@ -87,7 +93,7 @@
 <br/>
 
 <!-- SECTION 3: CURRENT FOCUS -->
-<h2 align="center" style="color: #00C2FF;">🔥 Current Core Focus & Expertise</h2>
+<h2 align="center" style="color: #00C2FF;">🔥 Current Core Focus &amp; Expertise</h2>
 
 <table width="100%" border="0" cellspacing="10" cellpadding="0">
   <tr>
@@ -98,13 +104,13 @@
       </p>
     </td>
     <td width="33%" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 12px; padding: 20px; vertical-align: top;">
-      <h3 style="color: #7C3AED; margin-top: 0;">⚡ Deep Learning & Neural Nets</h3>
+      <h3 style="color: #7C3AED; margin-top: 0;">⚡ Deep Learning &amp; Neural Nets</h3>
       <p style="color: #8B949E; font-size: 13px; line-height: 1.5;">
         Architecting, training, and optimizing deep neural networks with TensorFlow and Keras, focusing on loss optimization, overfitting control, and feature embeddings.
       </p>
     </td>
     <td width="33%" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 12px; padding: 20px; vertical-align: top;">
-      <h3 style="color: #22D3EE; margin-top: 0;">🐳 MLOps & Containerization</h3>
+      <h3 style="color: #22D3EE; margin-top: 0;">🐳 MLOps &amp; Containerization</h3>
       <p style="color: #8B949E; font-size: 13px; line-height: 1.5;">
         Containerizing ML workflows using Docker, tracking experiments with MLflow, and building automated continuous deployment pipelines for model serving.
       </p>
@@ -118,13 +124,13 @@
       </p>
     </td>
     <td width="33%" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 12px; padding: 20px; vertical-align: top;">
-      <h3 style="color: #00C2FF; margin-top: 0;">🌐 Scalable Backend & APIs</h3>
+      <h3 style="color: #00C2FF; margin-top: 0;">🌐 Scalable Backend &amp; APIs</h3>
       <p style="color: #8B949E; font-size: 13px; line-height: 1.5;">
         Engineering high-speed asynchronous REST APIs and web services using Flask &amp; FastAPI, coupled with SQL (MySQL/PostgreSQL) &amp; NoSQL (MongoDB) databases.
       </p>
     </td>
     <td width="33%" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 12px; padding: 20px; vertical-align: top;">
-      <h3 style="color: #7C3AED; margin-top: 0;">💡 DSA & Problem Solving</h3>
+      <h3 style="color: #7C3AED; margin-top: 0;">💡 DSA &amp; Problem Solving</h3>
       <p style="color: #8B949E; font-size: 13px; line-height: 1.5;">
         Rigorous daily algorithmic practice on LeetCode focusing on Dynamic Programming, Graphs, Trees, System Optimization, and space-time complexity analysis.
       </p>
@@ -139,7 +145,7 @@
 <br/>
 
 <!-- SECTION 4: FEATURED PROJECTS -->
-<h2 align="center" style="color: #00C2FF;">💼 Featured AI & ML Projects</h2>
+<h2 align="center" style="color: #00C2FF;">💼 Featured AI &amp; ML Projects</h2>
 
 <!-- PROJECT 1 -->
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 14px; margin-bottom: 20px;">
@@ -210,7 +216,7 @@
       </div>
     </td>
     <td width="50%" style="background-color: #161B22; border: 1px solid #30363D; border-radius: 14px; padding: 20px; vertical-align: top;">
-      <h3 style="color: #00C2FF; margin-top: 0;">⚙️ Automated MLOps & Experiment Tracking</h3>
+      <h3 style="color: #00C2FF; margin-top: 0;">⚙️ Automated MLOps &amp; Experiment Tracking</h3>
       <p style="color: #C9D1D9; font-size: 13px; line-height: 1.6;">
         Automated machine learning lifecycle management featuring MLflow model registry, hyperparameter tracking, automated data versioning, and CI/CD deployment pipelines.
       </p>
